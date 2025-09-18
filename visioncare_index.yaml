@@ -1,0 +1,39 @@
+total_items: 7000
+classes: 9
+by_label:
+  '[''a'']': 266
+  '[''c'']': 293
+  '[''d'']': 1608
+  '[''g'']': 284
+  '[''h'']': 128
+  '[''m'']': 232
+  '[''n'']': 2873
+  '[''o'']': 708
+  unknown: 608
+img_size:
+  width: 256
+  height: 256
+lbp:
+  P: 8
+  R: 1
+  method: uniform
+feature_schema:
+  order:
+  - lbp_green_hist
+  - rgb_means
+  - rgb_stds
+  dims:
+    lbp_green_hist: 10
+    rgb_means: 3
+    rgb_stds: 3
+  total_dim: 16
+label_map:
+  '[''a'']': 0
+  '[''c'']': 1
+  '[''d'']': 2
+  '[''g'']': 3
+  '[''h'']': 4
+  '[''m'']': 5
+  '[''n'']': 6
+  '[''o'']': 7
+  unknown: 8
